@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanDotcue/backend.git"
+    "url": "git+https://github.com/REMcoach/Learner4/issues"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chanDotcue/backend/issues"
+    "url": "https://github.com/REMcoach/Learner4/issues"
   },
-  "homepage": "https://github.com/chanDotcue/backend#readme",
+  "homepage": "https://github.com/REMcoach/Learner4/issues",
   "dependencies": {
     "app-root-path": "^2.2.1",
     "aws-sdk": "^2.482.0",
