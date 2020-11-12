@@ -2,7 +2,7 @@
 NODE_ENV=development
 PORT=25255
 HOST=exp.rem.coach
-PROJECTNAME=New Project
+PROJECTNAME=newproject
 
 # Database setting
 DB_HOST=localhost
