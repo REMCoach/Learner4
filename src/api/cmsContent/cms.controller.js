@@ -16,6 +16,22 @@ const rootPath = path.dirname(
 const { stringify } = require("querystring");
 const { result } = require("lodash");
 
+
+const A = async (req, res, next) => {
+  try {
+    let data = { name: "data" };
+    console.log(data);
+    res.send(data);
+  } catch (error) {
+    //db end connection
+    endConnection();
+    console.error(chalk.red(error));
+    res.status(500);
+    next(error);
+  }
+};
+
+
 const sandboxtest = async (req, res, next) => {
   try {
     let data = { name: "sandbox" };
