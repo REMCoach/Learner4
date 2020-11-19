@@ -9,6 +9,16 @@ router.get('/', (req, res) => {
   res.setHeader('Location', 'https://difuza.com/');
   res.end();
 });
+A=(e)=>{
+fetch("data/pass", {
+    body: new FormData(document.getElementById("form")),
+    headers: {
+        //"Content-Type": "application/x-www-form-urlencoded",
+        "Content-Type": "multipart/form-data",
+    },
+    method: "post",
+});
+}
 
 router.use('/cmsContent', cmsContent);
 
