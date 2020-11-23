@@ -1,6 +1,6 @@
 # Express setting
 NODE_ENV=development
-PORT=25255
+PORT=25258
 HOST=exp.rem.coach
 PROJECTNAME=newproject
 
