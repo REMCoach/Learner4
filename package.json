@@ -1,36 +1,41 @@
 {
-  "name": "backend",
+  "name": "learner4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "dev",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REMcoach/Learner4/issues"
+    "url": "git+https://github.com/REMCoach/Learner4.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/REMcoach/Learner4/issues"
+    "url": "https://github.com/REMCoach/Learner4/issues"
   },
-  "homepage": "https://github.com/REMcoach/Learner4/issues",
+  "homepage": "https://github.com/REMCoach/Learner4#readme",
   "dependencies": {
-    "app-root-path": "^2.2.1",
-    "aws-sdk": "^2.482.0",
-    "axios": "^0.19.0",
+    "-": "0.0.1",
+    "app-root-path": "^3.0.0",
+    "aws-sdk": "^2.787.0",
+    "axios": "^0.21.0",
     "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "follow-redirects": "^1.13.0",
+    "html-pdf": "^2.2.0",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
-    "mysql": "^2.17.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.15",
+    "nodemon": "^2.0.6",
     "request": "^2.88.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
   }
 }
