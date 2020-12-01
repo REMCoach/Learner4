@@ -13,8 +13,8 @@ const main = require('./main');
 
 const db = mysql.createPool({
   host: 'localhost',
-  database: 'learner1',
-  user: 'learner1',
+  database: 'learner4',
+  user: 'learner4',
   password: 'learner@123'
 });
 
@@ -63,7 +63,7 @@ app.post("/submittask1",(req,res)=>{
   
   
  var transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
+        host: 'ashwinraj710.gmail.com',
         port: 3000, // changed from 465
         secure: true,
         auth: {
